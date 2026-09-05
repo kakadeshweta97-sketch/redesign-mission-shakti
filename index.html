@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A modern concept website for Mission Shakti Maharashtra." />
+  <title>Mission Shakti Maharashtra | Women & Child Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Skip to main content</a>
+
+  <div class="utility-bar">
+    <div class="utility-inner">
+      <span>Accessible public information • Maharashtra</span>
+      <div class="utility-actions">
+        <button data-action="screen-reader" aria-label="Screen reader access">Screen Reader Access</button>
+        <button data-action="decrease-font" aria-label="Decrease font size">A−</button>
+        <button data-action="reset-font" aria-label="Reset font size">A</button>
+        <button data-action="increase-font" aria-label="Increase font size">A+</button>
+        <button id="languageToggle" aria-label="Switch language">मराठी</button>
+        <button data-action="login" class="login-btn">Log in</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="brand">
+      <div class="emblem" aria-label="Government emblem concept">
+        <span class="lion">♛</span>
+        <small>SATYAMEVA<br>JAYATE</small>
+      </div>
+      <div class="brand-divider"></div>
+      <div class="department-mark">
+        <span>WCD</span>
+      </div>
+      <div>
+        <p class="eyebrow" data-i18n="gov">Government of Maharashtra</p>
+        <h1 data-i18n="dept">Women & Child Development Department</h1>
+      </div>
+    </div>
+
+    <div class="header-tools">
+      <label class="search-box">
+        <span>⌕</span>
+        <input id="siteSearch" type="search" placeholder="Search services, schemes, documents..." />
+      </label>
+      <button class="menu-button" id="menuButton" aria-label="Open navigation">☰</button>
+    </div>
+  </header>
+
+  <nav class="main-nav" id="mainNav">
+    <a href="#home" data-route="home">Home</a>
+    <a href="#about" data-route="about">About Us</a>
+    <a href="#charter" data-route="charter">Citizen Charter</a>
+    <a href="#downloads" data-route="downloads">Downloads</a>
+    <a href="#rti" data-route="rti">Right to Information</a>
+    <a href="#rts" data-route="rts">Right to Service</a>
+    <a href="#program" data-route="program">100 Day Programme</a>
+    <a href="#contact" data-route="contact">Contact Us</a>
+  </nav>
+
+  <main id="mainContent">
+    <!-- HOME -->
+    <section class="page active" id="home">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="kicker">MISSION SHAKTI • MAHARASHTRA</p>
+          <h2>Safety. Dignity. Opportunity. <em>Every woman. Every child.</em></h2>
+          <p>A contemporary public-information experience designed to help citizens discover services, programmes, documents and support in one clear, welcoming place.</p>
+          <div class="hero-actions">
+            <a href="#about" class="primary-btn">Explore Mission Shakti <span>→</span></a>
+            <a href="#contact" class="secondary-btn">Find support</a>
+          </div>
+          <div class="trust-row">
+            <div><strong>Women-led</strong><span>development</span></div>
+            <div><strong>Child-first</strong><span>services</span></div>
+            <div><strong>Citizen-first</strong><span>information</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image image-card large-image"></div>
+          <div class="floating-card quote-card">
+            <span class="spark">✦</span>
+            <p>“Strong families build a stronger Maharashtra.”</p>
+          </div>
+          <div class="floating-card badge-card">
+            <strong>01</strong><span>One portal.<br>Clear pathways.</span>
+          </div>
+        </div>
+      </div>
+
+      <section class="quick-section">
+        <div class="section-heading">
+          <div><p class="kicker">START HERE</p><h2>What would you like to do?</h2></div>
+          <p>Quick paths designed for citizens, families and community partners.</p>
+        </div>
+        <div class="quick-grid">
+          <a href="#about" class="quick-card"><span class="icon">◌</span><h3>Know Mission Shakti</h3><p>Understand the vision, focus areas and citizen-centred approach.</p><b>Explore →</b></a>
+          <a href="#charter" class="quick-card"><span class="icon">▤</span><h3>Citizen Charter</h3><p>Find service commitments, documents and public-service information.</p><b>Open charter →</b></a>
+          <a href="#rts" class="quick-card"><span class="icon">✓</span><h3>Right to Service</h3><p>Learn about transparent and time-bound public services.</p><b>Know your rights →</b></a>
+          <a href="#contact" class="quick-card"><span class="icon">☎</span><h3>Contact & Support</h3><p>Find department contacts and important public-support pathways.</p><b>Get help →</b></a>
+        </div>
+      </section>
+
+      <section class="story-section">
+        <div class="story-image image-card"></div>
+        <div class="story-copy">
+          <p class="kicker">PEOPLE AT THE CENTRE</p>
+          <h2>Designed around real lives, real stages and real needs.</h2>
+          <p>From early childhood and nutrition to women’s safety, opportunity and empowerment, the information architecture follows the journeys of people—not the complexity of departments.</p>
+          <a href="#about" class="text-link">Discover our approach <span>→</span></a>
+        </div>
+      </section>
+
+      <section class="gallery-section">
+        <div class="section-heading"><div><p class="kicker">LIFE ACROSS GENERATIONS</p><h2>Care, courage & possibility</h2></div></div>
+        <div class="photo-grid">
+          <div class="photo p1"><span>Early childhood</span></div>
+          <div class="photo p2"><span>Women’s leadership</span></div>
+          <div class="photo p3"><span>Healthy families</span></div>
+          <div class="photo p4"><span>Community care</span></div>
+        </div>
+      </section>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="page" id="about">
+      <div class="page-banner about-banner">
+        <div><p class="kicker">ABOUT US</p><h2>Mission Shakti, designed for a stronger Maharashtra.</h2><p>This concept page presents public information in a simpler, more visual and more accessible format.</p></div>
+      </div>
+      <div class="content-layout">
+        <article class="article-card">
+          <p class="kicker">OUR PURPOSE</p>
+          <h2>Safety, security and empowerment with people at the centre.</h2>
+          <p>Mission Shakti is a mission-mode framework focused on strengthening interventions for women’s safety, security and empowerment. This website concept translates that public purpose into a calm, easy-to-navigate digital experience.</p>
+          <div class="principles">
+            <div><span>01</span><h3>Accessible</h3><p>Plain language, visible actions and readable layouts.</p></div>
+            <div><span>02</span><h3>Trustworthy</h3><p>Clear pathways to official information and services.</p></div>
+            <div><span>03</span><h3>Human</h3><p>Women, children and families are represented throughout.</p></div>
+          </div>
+        </article>
+        <aside class="image-stack">
+          <div class="stack-img one"></div><div class="stack-img two"></div>
+        </aside>
+      </div>
+      <section class="info-strip">
+        <div><strong>Women</strong><span>Safety • security • empowerment</span></div>
+        <div><strong>Children</strong><span>Care • development • protection</span></div>
+        <div><strong>Families</strong><span>Support • information • connection</span></div>
+      </section>
+    </section>
+
+    <!-- CHARTER -->
+    <section class="page" id="charter">
+      <div class="page-banner charter-banner"><div><p class="kicker">CITIZEN CHARTER</p><h2>Clear commitments. Easier access.</h2><p>A simple place to understand public-service commitments and find the relevant charter documents.</p></div></div>
+      <section class="document-area">
+        <div class="section-heading"><div><p class="kicker">PUBLIC DOCUMENTS</p><h2>Citizen Charter library</h2></div><p>Use the buttons below to open official charter resources in a new tab.</p></div>
+        <div class="document-grid">
+          <article class="document-card"><span>2018</span><h3>Citizen Charter</h3><p>Historic charter reference.</p><a href="https://www.womenchild.maharashtra.gov.in/en/citizen-charter" target="_blank" rel="noopener">Open official page ↗</a></article>
+          <article class="document-card"><span>2021</span><h3>Citizen Charter</h3><p>Department charter document.</p><a href="https://www.womenchild.maharashtra.gov.in/en/citizen-charter" target="_blank" rel="noopener">Open official page ↗</a></article>
+          <article class="document-card featured"><span>2025</span><h3>Citizen Charter</h3><p>Latest listed charter on the department page.</p><a href="https://www.womenchild.maharashtra.gov.in/en/citizen-charter" target="_blank" rel="noopener">View official source ↗</a></article>
+          <article class="document-card"><span>SCHEME</span><h3>Scheme-wise Charter</h3><p>Find programme-specific citizen information.</p><a href="https://www.womenchild.maharashtra.gov.in/en/citizen-charter" target="_blank" rel="noopener">Open official page ↗</a></article>
+        </div>
+      </section>
+    </section>
+
+    <!-- DOWNLOADS -->
+    <section class="page" id="downloads">
+      <div class="page-banner download-banner"><div><p class="kicker">DOWNLOADS</p><h2>Documents, guidance and useful resources.</h2><p>Curated pathways to official public documents without crowding the interface.</p></div></div>
+      <section class="download-list">
+        <a href="https://womenchild.maharashtra.gov.in/en/women-corner" target="_blank" rel="noopener"><span>↧</span><div><h3>Mission Shakti overview</h3><p>Programme information from the Maharashtra department.</p></div><b>Open ↗</b></a>
+        <a href="https://www.womenchild.maharashtra.gov.in/en/citizen-charter" target="_blank" rel="noopener"><span>↧</span><div><h3>Citizen Charter documents</h3><p>Charters and scheme-wise public information.</p></div><b>Open ↗</b></a>
+        <a href="https://missionshakti.wcd.gov.in/public/documents/whatsnew/Mission_Shakti_Guidelines.pdf" target="_blank" rel="noopener"><span>↧</span><div><h3>Mission Shakti guidelines</h3><p>Official programme implementation guidance.</p></div><b>Open ↗</b></a>
+      </section>
+    </section>
+
+    <!-- RTI -->
+    <section class="page" id="rti">
+      <div class="page-banner rti-banner"><div><p class="kicker">RIGHT TO INFORMATION</p><h2>Information is a public right.</h2><p>Use this section as a clean starting point for accessing official department information and public documents.</p></div></div>
+      <section class="two-column-text">
+        <article><h2>How this section works</h2><p>This redesigned concept keeps the experience simple: understand the purpose, find the department’s public information and move to the official government channel when a formal process is required.</p><a class="primary-btn" href="https://www.womenchild.maharashtra.gov.in/en/" target="_blank" rel="noopener">Visit department website ↗</a></article>
+        <div class="side-photo rti-photo"></div>
+      </section>
+    </section>
+
+    <!-- RTS -->
+    <section class="page" id="rts">
+      <div class="page-banner rts-banner"><div><p class="kicker">RIGHT TO SERVICE</p><h2>Your service is our duty.</h2><p>Transparent, speedy and time-bound public services are central to the Maharashtra Right to Public Services framework.</p></div></div>
+      <section class="rts-content">
+        <div class="rts-intro"><p class="kicker">MAHARASHTRA RTS ACT, 2015</p><h2>A simple pathway to understand time-bound public services.</h2><p>The Maharashtra Right to Public Services Act, 2015 came into force on 28 April 2015 to support transparent, prompt and time-bound delivery of notified public services.</p><a href="https://home.maharashtra.gov.in/en/maharashtra-right-to-public-services-act-2015/" target="_blank" rel="noopener" class="primary-btn">Read official RTS information ↗</a></div>
+        <div class="process-steps">
+          <div><span>01</span><h3>Identify</h3><p>Find the notified public service relevant to your need.</p></div>
+          <div><span>02</span><h3>Apply</h3><p>Use the appropriate official service pathway.</p></div>
+          <div><span>03</span><h3>Track</h3><p>Follow the notified time-bound process and available appeal mechanisms.</p></div>
+        </div>
+      </section>
+    </section>
+
+    <!-- PROGRAM -->
+    <section class="page" id="program">
+      <div class="page-banner program-banner"><div><p class="kicker">100 DAY PROGRAMME</p><h2>Visible action. Measurable progress.</h2><p>A modern programme page for highlighting priorities, progress and citizen-facing outcomes.</p></div></div>
+      <section class="programme-grid">
+        <article><span class="num">01</span><h3>Safer pathways</h3><p>Design public information so support and services are easier to discover.</p></article>
+        <article><span class="num">02</span><h3>Stronger access</h3><p>Make documents, services and contacts easier to reach on every device.</p></article>
+        <article><span class="num">03</span><h3>Community visibility</h3><p>Present progress with stories, milestones and image-led communication.</p></article>
+      </section>
+      <div class="programme-image"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="page" id="contact">
+      <div class="page-banner contact-banner"><div><p class="kicker">CONTACT US</p><h2>Find the right office, faster.</h2><p>Department and commissionerate contact details are presented in a cleaner, mobile-friendly format.</p></div></div>
+      <section class="contact-grid">
+        <article class="contact-card"><span>MAHARASHTRA</span><h3>Women & Child Development Department</h3><p>3rd Floor, New Administrative Building,<br>Madam Cama Road, Hutatma Rajguru Chowk,<br>Mumbai – 400032, Maharashtra</p><a href="tel:+912222622408">022 22622408</a><a href="tel:+912222618448">022 22618448 / 53</a><a href="mailto:ds.wcd-mh@mah.gov.in">ds.wcd-mh@mah.gov.in</a></article>
+        <article class="contact-card photo-contact"><div></div><h3>Office of the Commissioner, Pune</h3><p>28 Queens Garden, Near Old Circuit House, Pune – 411001</p><a href="tel:+912026360063">020 26360063</a></article>
+        <article class="contact-card accent-contact"><span>NEED TO BROWSE?</span><h3>Official department portal</h3><p>For the complete list of schemes, offices, notices and public information.</p><a class="primary-btn" href="https://womenchild.maharashtra.gov.in/en/" target="_blank" rel="noopener">Open official portal ↗</a></article>
+      </section>
+    </section>
+
+    <!-- SEARCH RESULTS -->
+    <section class="page" id="search">
+      <div class="search-page"><p class="kicker">SEARCH</p><h2 id="searchTitle">Search the website</h2><div id="searchResults" class="search-results"></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><div class="department-mark"><span>WCD</span></div><div><strong>Mission Shakti Maharashtra</strong><p>Concept website • Women & Child Development</p></div></div>
+    <div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#downloads">Documents</a><a href="#contact">Contact</a></div>
+    <p class="disclaimer">Design concept for academic/project use. Verify live service information with official Government of Maharashtra sources.</p>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box"><button class="modal-close" id="modalClose">×</button><h2 id="modalTitle">Welcome</h2><p id="modalText"></p></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
